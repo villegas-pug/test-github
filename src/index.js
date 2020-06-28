@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-/* import Debounce from './components/debounce' */
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/clsx'
 
 ReactDOM.render(
   <>
-    <h1>Hola este es un sitio de prueba!!!</h1>
-    <h2>Se actualizó el sitio de prueba!!!</h2>
-    <h2>Se realizoó un 2° actualizó el sitio de prueba!!!</h2>
+    <App />
   </>,
   document.getElementById('root')
 )

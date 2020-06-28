@@ -1,0 +1,21 @@
+.pseudo-element{
+   background-color: lighten(blue, 40%);
+   transition: height 1s ease-in-out;
+}
+
+.disabled{
+   animation: show 1s forwards;
+}
+
+@keyframes show{
+   from{
+      height: 0;
+   }
+   to{
+      height: 5rem;
+   }
+   
+   from, to{
+      border: 1px solid red;
+   }
+}
