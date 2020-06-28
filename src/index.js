@@ -6,6 +6,7 @@ ReactDOM.render(
   <>
     <h1>Hola este es un sitio de prueba!!!</h1>
     <h2>Se actualizó el sitio de prueba!!!</h2>
+    <h2>Se realizoó un 2° actualizó el sitio de prueba!!!</h2>
   </>,
   document.getElementById('root')
 )
