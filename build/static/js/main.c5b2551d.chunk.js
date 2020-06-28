@@ -1,2 +1,0 @@
-(this.webpackJsonphook=this.webpackJsonphook||[]).push([[0],{3:function(e,n,t){e.exports=t(4)},4:function(e,n,t){"use strict";t.r(n);var o=t(0),a=t.n(o),r=t(2),s=t.n(r);t(9);s.a.render(a.a.createElement(a.a.Fragment,null,a.a.createElement("h1",null,"Hola este es un sitio de prueba!!!")),document.getElementById("root"))},9:function(e,n){}},[[3,1,2]]]);
-//# sourceMappingURL=main.c5b2551d.chunk.js.map
