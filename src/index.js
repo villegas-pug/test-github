@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 import ReactDOM from 'react-dom'
 import Spinner from './components/StyledComponets/Spinner'
-const Api = lazy(() => import('./components/Clsx'))
+const Api = lazy(() => import('./components/Test'))
 const Boton = lazy(() => import('./components/StyledComponets/Button'))
 
 ReactDOM.render(
