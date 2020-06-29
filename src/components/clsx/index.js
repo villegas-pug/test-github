@@ -1,33 +1,18 @@
-import React, { useState } from 'react'
-import clsx from 'clsx'
-import './style.scss'
+import React from 'react'
+import { useApi } from '../Api'
 
 const Index = () => {
 
-   const [state, setState] = useState({
-      description: 'Open',
-      disbled: false
-   })
-
-   const { description, disabled } = state
-
-   const handleOnClick = () => {
-      setState({
-         description: disabled == true ? 'Close' : 'Open',
-         disabled: !disabled
-      })
-   }
-
+   const [data] = useApi(`https://jsonplaceholder.typicode.com/users`)
 
    return (
-      <div>
-         <button
-            onClick={handleOnClick}
-         >
-            {description}
-         </button>
-         <div className={clsx(['pseudo-element'], { disabled })} />
-      </div>
+      <ul>
+         {
+            data.map((user, key) => (
+               <li key={key}>{user.name}</li>
+            ))
+         }
+      </ul>
    )
 }
 
